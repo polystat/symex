@@ -99,15 +99,10 @@ SOFTWARE.
       <artifactId>eo-parser</artifactId>
       <version>${eo.version}</version>
     </dependency>
-    <dependency>
+    <dependency> 
       <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-log4j12</artifactId>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <scope>runtime</scope>
+      <artifactId>slf4j-api</artifactId>
+      <version>2.0.6</version>
     </dependency>
     <dependency>
       <groupId>com.jcabi</groupId>
